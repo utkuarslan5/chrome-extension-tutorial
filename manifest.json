@@ -1,0 +1,19 @@
+{
+    "name": "Searcher",
+    "version": "1.0.0",
+    "description": "A random Google searcher using Langchain",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.vimeo.com/*",
+                "https://*.google.com/*",
+                "https://*.youtube.com/*"
+            ],
+            "js": [
+                "app.js"
+            ]
+        }
+    ]
+
+}
